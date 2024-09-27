@@ -28,3 +28,4 @@ build
 .project
 .settings
 test-output
+test-results

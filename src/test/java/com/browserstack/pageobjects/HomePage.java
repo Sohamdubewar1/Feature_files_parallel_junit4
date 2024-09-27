@@ -8,12 +8,13 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import java.time.Duration;
 
 public class HomePage {
-    private WebDriver webDriver;
+    public WebDriver webDriver;
 
     private String selectedProductName;
 
-    public HomePage(WebDriver webDriver) {
-        this.webDriver = webDriver;
+    public HomePage(WebDriver driver) {
+//        webDriver.set(driver);
+        this.webDriver = driver;
         this.selectedProductName = "";
     }
 

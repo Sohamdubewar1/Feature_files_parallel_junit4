@@ -3,8 +3,8 @@
 # =============================
 # Add your BrowserStack userName and accessKey here or set BROWSERSTACK_USERNAME and
 # BROWSERSTACK_ACCESS_KEY as env variables
-userName: YOUR_USERNAME
-accessKey: YOUR_ACCESS_KEY
+userName: sohamdubewar_2enALW
+accessKey: M5rp5PBAVVqAKozwgLTZ
 
 # ======================
 # BrowserStack Reporting
@@ -34,13 +34,13 @@ platforms:
     osVersion: Big Sur
     browserName: Chrome
     browserVersion: latest
-  - os: Windows
-    osVersion: 10
-    browserName: Edge
-    browserVersion: latest
-  - deviceName: Samsung Galaxy S22 Ultra
-    browserName: chrome # Try 'samsung' for Samsung browser
-    osVersion: 12.0
+#  - os: Windows
+#    osVersion: 10
+#    browserName: Edge
+#    browserVersion: latest
+#  - deviceName: Samsung Galaxy S22 Ultra
+#    browserName: chrome # Try 'samsung' for Samsung browser
+#    osVersion: 12.0
     
 # =======================
 # Parallels per Platform
@@ -51,7 +51,7 @@ platforms:
 # Example 1 - If you have configured 3 platforms and set `parallelsPerPlatform` as 2, a total of 6 (2 * 3) parallel threads will be used on BrowserStack
 #
 # Example 2 - If you have configured 1 platform and set `parallelsPerPlatform` as 5, a total of 5 (1 * 5) parallel threads will be used on BrowserStack
-parallelsPerPlatform: 1
+parallelsPerPlatform: 2
 
 # ==========================================
 # BrowserStack Local
@@ -59,7 +59,7 @@ parallelsPerPlatform: 1
 # ==========================================
 # Set browserStackLocal to true if your website under test is not accessible publicly over the internet
 # Learn more about how BrowserStack Local works here -> https://www.browserstack.com/docs/automate/selenium/local-testing-introduction
-browserstackLocal: true # <boolean> (Default false)
+browserstackLocal: false # <boolean> (Default false)
 
 # Options to be passed to BrowserStack local in-case of advanced configurations
 # browserStackLocalOptions:
